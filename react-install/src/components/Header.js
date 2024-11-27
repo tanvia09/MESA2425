@@ -1,3 +1,12 @@
+import { Link } from 'react-router-dom';
+
 export default function Header() {
-    <h1>put buttons that link to the other pages header</h1>
+    return (
+        <nav>
+          <Link to="/home">Home </Link>
+          <Link to="/resources">Resources </Link>
+          <Link to="/tasks">Tasks </Link>
+          <Link to="/todo">To-do </Link>
+        </nav>
+    )
 }
