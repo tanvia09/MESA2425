@@ -1,0 +1,18 @@
+.resources-container {
+  text-align: center;
+}
+
+.resources-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.resource-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  display: block;
+  margin: 5px 0;
+}

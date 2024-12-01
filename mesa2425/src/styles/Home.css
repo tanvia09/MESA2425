@@ -1,0 +1,35 @@
+/* Home.css */
+.Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .Home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .Home-image img {
+    max-width: 100%;
+    max-height: 400px;
+  }
+  
+  .Home-description {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .Home-description h2 {
+    font-size: 24px;
+  }
+  
+  .Home-description p {
+    font-size: 16px;
+    color: #555;
+  }
+  

@@ -1,0 +1,34 @@
+/* Styling to ensure month name is black and not a button */
+.react-calendar__navigation__label {
+  color: black !important;
+  pointer-events: none; /* Prevent cursor from changing */
+}
+
+/* Disable past dates and make them white */
+.react-calendar__tile--disabled {
+  background-color: white;
+  color: lightgray;
+  pointer-events: none;
+}
+
+/* Calendar styling */
+.calendar-container {
+  margin-top: 20px;
+}
+
+.calendar {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.react-calendar__tile {
+  color: black; /* Make sure all dates are black */
+}
+
+.react-calendar__month-view {
+  font-size: 16px;
+  font-weight: bold;
+}

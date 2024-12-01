@@ -1,0 +1,36 @@
+/* Todo List styling */
+.todo-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.todo-item button {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-item.completed {
+  background-color: #d3ffd3;
+  text-decoration: line-through;
+}
+
+.todo-item button:hover {
+  background-color: #218838;
+}
