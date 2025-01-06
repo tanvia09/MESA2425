@@ -16,21 +16,18 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <header className="App-header">
-          <h1 className="App-title">Mindlink</h1>
-          <h3 className="App-subtitle">Your productivity companion</h3>
-        </header>
+        <div className="App-header">
+          <img src="/images/textbox.png" alt="" width="100" height="50"></img>
+          <div className="overlay-text">
+            <h1>Mindlink</h1>
+            <h3>Your productivity companion</h3>
+          </div>
+        </div>
 
-        {/* Menu */}
-        <nav className="App-nav">
-          <ul>
-            <li><Link to="/home">Home</Link></li>
-            <li><Link to="/resources">Resources</Link></li>
-            <li><Link to="/tasks">Tasks</Link></li>
-            <li><Link to="/todo">Todo</Link></li>
-          </ul>
-        </nav>
+        <div className="App-base">
 
+        </div>
+        
         {/* Routes */}
         <Routes>
           <Route path="/home" element={<Home />} />
@@ -38,6 +35,16 @@ function App() {
           <Route path="/tasks" element={<Tasks addTaskToTodoList={addTaskToTodoList} />} />
           <Route path="/todo" element={<Todo tasks={tasks} />} />
         </Routes>
+
+        {/* Menu */}
+        <nav className="App-nav">
+          <ul>
+            <li><Link to="/home"><img src="/images/home-icon.png" alt="" width="50" height="50"></img></Link></li>
+            <li><Link to="/resources"><img src="/images/camera-icon.png" alt="" width="50" height="50"></img></Link></li>
+            <li><Link to="/tasks"><img src="/images/calendar-icon.png" alt="" width="50" height="50"></img></Link></li>
+            <li><Link to="/todo"><img src="/images/todo-icon.png" alt="" width="50" height="50"></img></Link></li>
+          </ul>
+        </nav>
       </BrowserRouter>
     </div>
   );
