@@ -12,25 +12,26 @@
 
 .App-header {
   position: relative;
-  display: inline-block;
-  left: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 140px;
+  top: -100;
+  background-color: #e5b6fc;
+  left: 0;
 }
 
 .App-header img{
-  width: 350px;
-  height: 300px;
+  width: 400px;
+  height: 140px;
+  z-index: 1;
 }
 
 .App-header h1 {
   margin: 0;
   text-align: left;
   font-size: 2.5em;
-}
-
-.overlay-text {
-  position: absolute;
-  top: 25%;
-  left: 13%;
 }
 
 .App-header h3 {
@@ -65,8 +66,8 @@
   font-size: 18px;
 }
 
-.App-nav ul li a:hover {
-  color: #61dafb;
+.App-nav img:hover {
+  opacity: 0.8;
 }
 
 /* Homepage Section */
@@ -79,12 +80,14 @@
 }
 
 .content-box {
+  font-family: "Big Shoulders", sans-serif;
   width: 30%;
   margin-bottom: 20px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100;
 }
 
 .content-box h2 {

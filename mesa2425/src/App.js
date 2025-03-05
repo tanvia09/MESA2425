@@ -17,11 +17,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <div className="App-header">
-          <img src="/images/textbox.png" alt="" width="100" height="50"></img>
-          <div className="overlay-text">
-            <h1>Mindlink</h1>
-            <h3>Your productivity companion</h3>
-          </div>
+          <img src="/images/textbox1.png" alt="" width="250" height="50"></img>
         </div>
 
         <div className="App-base">

@@ -32,7 +32,7 @@ const Todo = ({ tasks }) => {
 
   return (
     <div className="todo-container">
-      <h2>Todo List</h2>
+      <h2>To do list</h2>
       <ul className="todo-list">
         {taskList.map((task, index) => (
           <li key={index} className={`todo-item ${task.completed ? 'completed' : ''}`}>
